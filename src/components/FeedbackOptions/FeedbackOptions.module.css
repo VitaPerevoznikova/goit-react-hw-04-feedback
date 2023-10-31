@@ -1,0 +1,27 @@
+.containerFeedback{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btnResult {
+  border-radius: 30px;
+  border: 1px solid #6e4e39;
+  background: rgba(231, 206, 186, 0.5);
+  color: #6e4e39;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+
+  width: 116px;
+  height: 39px;
+  text-align: center;
+}
+.btnResult:hover,
+.btnResult:focus{
+    color: #fff;
+    background-color: #92A46680;
+}
